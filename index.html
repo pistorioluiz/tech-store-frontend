@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>TechStore - Loja de Tecnologia</title>
+		<link rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="logo">
+					<i class="fas fa-laptop-code"></i>
+					<span>TechStore</span>
+				</div>
+				<nav class="nav">
+					<a href="#" class="nav-link active">Início</a>
+					<a href="#" class="nav-link">Produtos</a>
+					<a href="#" class="nav-link">Marcas</a>
+					<a href="#" class="nav-link">Promoções</a>
+					<a href="#" class="nav-link">Contato</a>
+				</nav>
+				<div class="header-actions">
+					<button class="btn-icon">
+						<i class="fas fa-user"></i>
+					</button>
+					<button class="btn-icon">
+						<i class="fas fa-shopping-cart"></i>
+					</button>
+				</div>
+				<button class="menu-toggle">
+					<i class="fas fa-bars"></i>
+				</button>
+			</div>
+		</header>
+
+		<section class="hero">
+			<div class="container">
+				<div class="hero-content">
+					<h1>Tecnologia de Ponta ao Seu Alcance</h1>
+					<p>Encontre os melhores produtos de tecnologia com preços competitivos e
+						entrega rápida.</p>
+					<div class="hero-buttons">
+						<button class="btn btn-primary">Comprar Agora</button>
+						<button class="btn btn-secondary">Ver Produtos</button>
+					</div>
+				</div>
+				<div class="hero-image">
+					<img src="images/products/laptop.jpg"
+						alt="notebook_1">
+				</div>
+			</div>
+		</section>
+
+		<section class="features">
+			<div class="container">
+				<h2 class="section-title">Por que escolher a TechStore?</h2>
+				<div class="features-grid">
+					<div class="feature-card">
+						<i class="fas fa-shield-alt"></i>
+						<h3>Produtos Originais</h3>
+						<p>Garantia do fabricante em todos os produtos</p>
+					</div>
+					<div class="feature-card">
+						<i class="fas fa-shipping-fast"></i>
+						<h3>Entrega Rápida</h3>
+						<p>Entregamos em todo o Brasil</p>
+					</div>
+					<div class="feature-card">
+						<i class="fas fa-headset"></i>
+						<h3>Suporte 24/7</h3>
+						<p>Atendimento especializado</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="products">
+			<div class="container">
+				<div class="section-header">
+					<h2 class="section-title">Produtos em Destaque</h2>
+					<a href="#" class="view-all">Ver Todos</a>
+				</div>
+
+				<div class="products-grid">
+					<div class="product-card">
+						<div class="product-badge">-15%</div>
+						<img
+							src="images/products/s25-ultra_1.jpeg"
+							alt="Smartphone">
+						<div class="product-info">
+							<h3>Smartphone Samsung S25 Ultra</h3>
+							<p>512GB, Câmera Tripla, Tela 6.7"</p>
+							<div class="product-price">
+								<span class="current">R$ 4249,15</span>
+								<span class="old">R$ 4.999,00</span>
+							</div>
+							<button class="btn btn-primary btn-block">Comprar</button>
+						</div>
+					</div>
+
+					<div class="product-card">
+						<div class="product-badge new">Novo</div>
+						<img
+							src="images/products/galaxy-book-4_1.jpeg"
+							alt="Laptop">
+						<div class="product-info">
+							<h3>Samsung Galaxy Book 4</h3>
+							<p>Intel i9, 16GB RAM, SSD 1TB</p>
+							<div class="product-price">
+								<span class="current">R$ 3.899,00</span>
+							</div>
+							<button class="btn btn-primary btn-block">Comprar</button>
+						</div>
+					</div>
+
+					<div class="product-card">
+						<img
+							src="images/products/fone-bluetooth-1.jpg"
+							alt="Fones">
+						<div class="product-info">
+							<h3>Fones Bluetooth</h3>
+							<p>Cancelamento de ruído, 30h bateria</p>
+							<div class="product-price">
+								<span class="current">R$ 399,00</span>
+							</div>
+							<button class="btn btn-primary btn-block">Comprar</button>
+						</div>
+					</div>
+
+					<div class="product-card">
+						<div class="product-badge">Promoção</div>
+						<img
+							src="images/products/galaxy-watch-7_1.jpeg"
+							alt="Smartwatch">
+						<div class="product-info">
+							<h3>Smartwatch</h3>
+							<p>GPS, Monitor cardíaco, À prova d'água</p>
+							<div class="product-price">
+								<span class="current">R$ 499,00</span>
+								<span class="old">R$ 699,00</span>
+							</div>
+							<button class="btn btn-primary btn-block">Comprar</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="newsletter">
+			<div class="container">
+				<div class="newsletter-content">
+					<h2>Fique por Dentro</h2>
+					<p>Receba ofertas exclusivas e novidades</p>
+					<form class="newsletter-form">
+						<input type="email" placeholder="Seu melhor e-mail" required>
+						<button type="submit">Inscrever</button>
+					</form>
+				</div>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-content">
+					<div class="footer-section">
+						<h3>TechStore</h3>
+						<p>Sua loja de tecnologia de confiança.</p>
+						<div class="social-links">
+							<a href="#"><i class="fab fa-facebook"></i></a>
+							<a href="#"><i class="fab fa-instagram"></i></a>
+							<a href="#"><i class="fab fa-twitter"></i></a>
+						</div>
+					</div>
+
+					<div class="footer-section">
+						<h4>Links</h4>
+						<a href="#">Sobre Nós</a>
+						<a href="#">Contato</a>
+						<a href="#">Política de Privacidade</a>
+					</div>
+
+					<div class="footer-section">
+						<h4>Contato</h4>
+						<p><i class="fas fa-map-marker-alt"></i> Av. Tech, 123.</p>
+						<p><i class="fas fa-phone"></i> (12) 3456-7890</p>
+						<p><i class="fas fa-envelope"></i> contato@techstore.com</p>
+					</div>
+				</div>
+
+				<div class="footer-bottom">
+					<p>&copy; 2024 TechStore. Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</footer>
+		<script src="js/script.js"></script>
+	</body>
+</html>
