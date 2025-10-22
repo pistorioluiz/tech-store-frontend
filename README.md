@@ -1,34 +1,22 @@
-# TechStore - Loja de Tecnologia
+# TechStore - Loja Virtual
 
-Projeto de interface para uma loja virtual de produtos de tecnologia.
+Uma loja de tecnologia moderna e responsiva desenvolvida com HTML, CSS e JavaScript.
 
-## 🚀 Funcionalidades
+## 🚀 Como executar
 
-- Design responsivo e moderno
-- Catálogo de produtos
-- Sistema de carrinho (localStorage)
-- Formulário de newsletter
-- Animações e interações
-
-## 🛠️ Tecnologias Utilizadas
-
-- HTML5
-- CSS3 (com variáveis CSS)
-- Bootstrap 5
-- JavaScript Vanilla
-- Bootstrap Icons
+1. Baixe os arquivos
+2. Abra `index.html` no navegador
+3. Pronto! A loja está funcionando
 
 ## 📱 Responsividade
 
-O projeto é totalmente responsivo e funciona em:
-- Dispositivos móveis (≥ 320px)
-- Tablets (≥ 768px)
-- Desktop (≥ 1024px)
+- ✅ Mobile (até 480px)
+- ✅ Tablet (481px - 768px)  
+- ✅ Desktop (769px+)
 
-## 🎨 Personalização
+## 🛠️ Tecnologias
 
-As cores podem ser alteradas através das variáveis CSS no arquivo `css/style.css`.
-
-## 📄 Licença
-
-Este projeto é para fins educacionais.
+- HTML5
+- CSS3 (Grid, Flexbox)
+- JavaScript
+- Font Awesome Icons
